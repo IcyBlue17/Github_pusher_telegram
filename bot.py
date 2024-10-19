@@ -1,12 +1,11 @@
 from flask import *
+from datetime import *
 import requests
 import os
-from datetime import *
-
 app = Flask(__name__)
 
 bot_token = os.getenv('TOKEN') 
-chat_id = os.getenv('CHAT_ID') 
+chat_id = os.getenv('CHATID') 
 api_url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
 
 @app.route("/", methods=["GET", "POST"])
