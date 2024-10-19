@@ -53,7 +53,7 @@ icymichiko/github_pusher_telegram:latest
 | 环境变量 | 说明                                                                   |
 | :------- | :--------------------------------------------------------------------- |
 | TOKEN    | Telegram Bot Token，可以通过 [@BotFather](https://t.me/BotFather) 获取  |
-| CHATID   | Telegram Chat ID                                                       |
+| CHATID   | Telegram Chat ID ，可以通过机器人/第三方客户端等方式获取                                                      |
 
 
 ---
