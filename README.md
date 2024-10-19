@@ -88,7 +88,9 @@ http://114.5.1.4:暴露的端口/github
 
 ### 3. 测试 Webhook
 
-成功配置后，你可以尝试推送代码到 GitHub 仓库，或者在 Webhook 设置页面点击 **Recent Deliveries** 旁边的 **Redeliver** 按钮，来测试 Webhook 是否正常工作。
+成功配置后，你可以尝试推送代码到 GitHub 仓库，或者在 Webhook 设置页面点击 **Recent Deliveries** 旁边的 **Redeliver** 按钮，来测试 Webhook 是否正常工作。  
+如果是群，你需要先@机器人发个/start后续机器人才能正常推送，私聊也要先发个/start。  
+
 
 如果配置成功，您会在 Telegram 中收到类似以下格式的消息：
 
